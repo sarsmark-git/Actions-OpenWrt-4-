@@ -40,7 +40,7 @@ rm -rf package/luci-app-vssr/root/etc/dnsmasq.ssr/gfw_base.conf
 rm -rf package/luci-app-vssr/root/etc/dnsmasq.ssr/gfw_list.conf
 
 #-清理feeds
-./scripts/feeds clean
+#./scripts/feeds clean
 #-更新feeds
 ./scripts/feeds update -a
 #-安装feeds
