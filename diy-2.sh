@@ -24,8 +24,8 @@ git clone https://github.com/fw876/helloworld.git package/helloworld
 #添加passwall
 git clone https://github.com/yingdk/lienol-openwrt-package.git package/lienol
 #添加hello world
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+git clone https://github.com/yingdk/diy.git package/diy
+git clone https://github.com/yingdk/luci-app-vssr-plus.git package/luci-app-vssr
 #添加Openclash
 git clone https://github.com/vernesong/OpenClash.git package/openclash
 #添加koolproxyR
