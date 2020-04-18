@@ -24,11 +24,11 @@ git clone https://github.com/fw876/helloworld.git package/helloworld
 #添加passwall
 git clone https://github.com/yingdk/lienol-openwrt-package.git package/lienol
 #添加jerrykuku-hello world
-#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
-#git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 #添加leo-jo-hello world
-git clone https://github.com/yingdk/diy.git package/diy
-git clone https://github.com/yingdk/luci-app-vssr-plus.git package/luci-app-vssr-plus
+#git clone https://github.com/yingdk/diy.git package/diy
+#git clone https://github.com/yingdk/luci-app-vssr-plus.git package/luci-app-vssr-plus
 #添加Openclash
 git clone https://github.com/vernesong/OpenClash.git package/openclash
 #添加koolproxyR
@@ -37,10 +37,10 @@ git clone https://github.com/vernesong/OpenClash.git package/openclash
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/adguardhome
 
 #删除jerrykuku-helloworld+ssrplus冲突文件
-#rm -rf package/luci-app-vssr/root/etc/china_ssr.txt
-#rm -rf package/luci-app-vssr/root/etc/dnsmasq.oversea/oversea_list.conf
-#rm -rf package/luci-app-vssr/root/etc/dnsmasq.ssr/gfw_base.conf
-#rm -rf package/luci-app-vssr/root/etc/dnsmasq.ssr/gfw_list.conf
+rm -rf package/luci-app-vssr/root/etc/china_ssr.txt
+rm -rf package/luci-app-vssr/root/etc/dnsmasq.oversea/oversea_list.conf
+rm -rf package/luci-app-vssr/root/etc/dnsmasq.ssr/gfw_base.conf
+rm -rf package/luci-app-vssr/root/etc/dnsmasq.ssr/gfw_list.conf
 
 #-清理feeds
 #./scripts/feeds clean
