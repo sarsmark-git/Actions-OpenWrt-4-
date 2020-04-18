@@ -22,7 +22,7 @@ git clone https://github.com/Leo-Jo-My/luci-theme-opentomato.git package/luci-th
 #添加ssrplus
 git clone https://github.com/fw876/helloworld.git package/helloworld
 #添加passwall
-git clone https://github.com/yingdk/openwrt-package.git package/lienol
+git clone https://github.com/yingdk/lienol-openwrt-package.git package/lienol
 #添加hello world
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
